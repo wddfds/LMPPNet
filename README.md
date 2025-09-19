@@ -10,7 +10,7 @@ Python-3.9， CUDA-11.8， Pytorch-2.0.1
 
 ```
 conda create -n lmppnet python=3.9
-conda activate parunet
+conda activate lmppnet
 ```
 
 2. Install dependencies
@@ -20,6 +20,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
+You can download the Datasets [BaiduPan](https://pan.baidu.com/s/1QxE4QiDJZe0FBV8Kbji9_w?pwd=xse9) (xse9).
 Prepare the dataset path as follows:
 ```
 ┬─ ITS
@@ -45,9 +46,9 @@ Prepare the dataset path as follows:
 ```
 
 ## Test
-Run the following script to test the trained model:
+The pretrained model is located in the ./pretrained folder, please run the following script to test the trained model:
 ```sh
-python test.py  --dataset [dataset_path] --model_dir [weight path] --save_image[whether save the predict images]
+python test.py  --dataset [dataset_path] --model_dir [weight path] --save_image [whether save the predict images]
 ```
 Example
 ```sh

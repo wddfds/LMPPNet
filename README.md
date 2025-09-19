@@ -81,4 +81,4 @@ If you find this work useful for your research, please cite our paper:
 
 ## Acknowledgement
 
-Thanks to the work of [Dehaze-UNet](https://github.com/hocking-cloud/Dehaze-UNet) This work drew inspiration from his code.
+Thanks to the work of [Dehaze-UNet](https://github.com/hocking-cloud/Dehaze-UNet). This work drew inspiration from his code.

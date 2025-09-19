@@ -20,7 +20,6 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-You can download the Datasets [BaiduPan](https://pan.baidu.com/s/1QxE4QiDJZe0FBV8Kbji9_w?pwd=xse9) (xse9).
 Prepare the dataset path as follows:
 ```
 ┬─ ITS

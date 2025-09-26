@@ -1,6 +1,6 @@
 # LMPPNet
 
-This is the code for the paper xxxx
+This is the code for the paper LMPPNet: A Lightweight Multi-scale Physical Prior Network for Single Image Dehazing
 
 ## Environment 
 Python-3.9， CUDA-11.8， Pytorch-2.0.1

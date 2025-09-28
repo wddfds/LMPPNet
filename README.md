@@ -53,7 +53,7 @@ python test.py
 ## Train
 You can modify the training hyperparameters for each experiment and run the following script to train a new model:
 ```sh
-python train.py  --project [project name] --dataset [dataset_path] 
+python train.py
 ```
 
 ## Citation

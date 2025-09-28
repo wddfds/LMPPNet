@@ -47,21 +47,13 @@ Prepare the dataset path as follows:
 ## Test
 The pretrained model is located in the ./pretrained folder, please run the following script to test the trained model:
 ```sh
-python test.py  --dataset [dataset_path] --model_dir [weight path] --save_image [whether save the predict images]
-```
-Example
-```sh
-python test.py  --dataset ./dataset/ITS --model_dir ./pretrained/ITS.pth --save_image True
+python test.py
 ```
 
 ## Train
 You can modify the training hyperparameters for each experiment and run the following script to train a new model:
 ```sh
 python train.py  --project [project name] --dataset [dataset_path] 
-```
-Example
-```sh
-python train.py  --project new_project --dataset ./dataset/ITS
 ```
 
 ## Citation
